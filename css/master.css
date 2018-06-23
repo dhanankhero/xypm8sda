@@ -5,6 +5,7 @@ body {padding: 0;margin: 0;font-family: arial;}
 /* template */
 .container {width: 800px;margin: 0 auto;}
 .clear {clear: both;}
+.blur {-webkit-filter: blur(10px);-moz-filter: blur(10px);-o-filter: blur(10px);-ms-filter: blur(10px);filter: blur(10px);}
 
 /* struktur */
 /* navigasi */
@@ -16,4 +17,3 @@ body {padding: 0;margin: 0;font-family: arial;}
 .nav-link:hover {background-color: #eee;}
 .loker {background-color: #afff7e;}
 .loker:hover {background-color: #80cf51 !important;}
-.blur {-webkit-filter: blur(10px);-moz-filter: blur(10px);-o-filter: blur(10px);-ms-filter: blur(10px);filter: blur(10px);}
