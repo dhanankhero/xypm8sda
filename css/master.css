@@ -8,9 +8,12 @@ body {padding: 0;margin: 0;font-family: arial;}
 
 /* struktur */
 /* navigasi */
-.nav-container {width: 100%;box-shadow: 0 0 50px #0002;position: fixed;background-color: #fff;}
+.nav-container {width: 100%;box-shadow: 0 0 50px #0002;position: fixed;background-color: #fff9}
 .nav-item {padding: 20px;float: right;}
 .logo {font-weight: bold;float: left;border-right: 1px solid #ebebeb}
 .nav {padding: 0;margin: 0;}
 .nav-link {float: right;list-style: none;padding: 20px;cursor: pointer;}
 .nav-link:hover {background-color: #eee;}
+.loker {background-color: #afff7e;}
+.loker:hover {background-color: #80cf51 !important;}
+.blur {-webkit-filter: blur(10px);-moz-filter: blur(10px);-o-filter: blur(10px);-ms-filter: blur(10px);filter: blur(10px);}
