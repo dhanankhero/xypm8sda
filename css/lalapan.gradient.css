@@ -1,0 +1,821 @@
+/* Fancy Gradient Color */
+/* Background Color */
+.fan-bg-1 { background: linear-gradient(#A9F1DF , #FFBBBB); }
+.fan-bg-2 { background: linear-gradient(#D8B5FF , #1EAE98); }
+.fan-bg-3 { background: linear-gradient(#BFF098 , #6FD6FF); }
+.fan-bg-4 { background: linear-gradient(#C6EA8D , #FE90AF); }
+.fan-bg-5 { background: linear-gradient(#F1EAB9 , #FF8C8C); }
+.fan-bg-6 { background: linear-gradient(#EA8D8D , #A890FE); }
+.fan-bg-7 { background: linear-gradient(#00B7FF , #FFFFC7); }
+.fan-bg-8 { background: linear-gradient(#FCA5F1 , #B5FFFF); }
+.fan-bg-9 { background: linear-gradient(#D74177 , #FFE98A); }
+.fan-bg-10 { background: linear-gradient(#38ADAE , #CD295A); }
+
+/* Background Color With Rotation */
+/* 0 deg */
+.fan-bg-1-0 { background: linear-gradient(0deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-0 { background: linear-gradient(0deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-0 { background: linear-gradient(0deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-0 { background: linear-gradient(0deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-0 { background: linear-gradient(0deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-0 { background: linear-gradient(0deg , #EA8D8D , #A890FE); }
+.fan-bg-7-0 { background: linear-gradient(0deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-0 { background: linear-gradient(0deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-0 { background: linear-gradient(0deg , #D74177 , #FFE98A); }
+.fan-bg-10-0 { background: linear-gradient(0deg , #38ADAE , #CD295A); }
+/* 5 deg */
+.fan-bg-1-5 { background: linear-gradient(5deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-5 { background: linear-gradient(5deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-5 { background: linear-gradient(5deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-5 { background: linear-gradient(5deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-5 { background: linear-gradient(5deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-5 { background: linear-gradient(5deg , #EA8D8D , #A890FE); }
+.fan-bg-7-5 { background: linear-gradient(5deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-5 { background: linear-gradient(5deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-5 { background: linear-gradient(5deg , #D74177 , #FFE98A); }
+.fan-bg-10-5 { background: linear-gradient(5deg , #38ADAE , #CD295A); }
+/* 10 deg */
+.fan-bg-1-10 { background: linear-gradient(10deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-10 { background: linear-gradient(10deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-10 { background: linear-gradient(10deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-10 { background: linear-gradient(10deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-10 { background: linear-gradient(10deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-10 { background: linear-gradient(10deg , #EA8D8D , #A890FE); }
+.fan-bg-7-10 { background: linear-gradient(10deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-10 { background: linear-gradient(10deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-10 { background: linear-gradient(10deg , #D74177 , #FFE98A); }
+.fan-bg-10-10 { background: linear-gradient(10deg , #38ADAE , #CD295A); }
+/* 15 deg */
+.fan-bg-1-15 { background: linear-gradient(15deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-15 { background: linear-gradient(15deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-15 { background: linear-gradient(15deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-15 { background: linear-gradient(15deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-15 { background: linear-gradient(15deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-15 { background: linear-gradient(15deg , #EA8D8D , #A890FE); }
+.fan-bg-7-15 { background: linear-gradient(15deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-15 { background: linear-gradient(15deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-15 { background: linear-gradient(15deg , #D74177 , #FFE98A); }
+.fan-bg-10-15 { background: linear-gradient(15deg , #38ADAE , #CD295A); }
+/* 20 deg */
+.fan-bg-1-20 { background: linear-gradient(20deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-20 { background: linear-gradient(20deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-20 { background: linear-gradient(20deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-20 { background: linear-gradient(20deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-20 { background: linear-gradient(20deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-20 { background: linear-gradient(20deg , #EA8D8D , #A890FE); }
+.fan-bg-7-20 { background: linear-gradient(20deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-20 { background: linear-gradient(20deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-20 { background: linear-gradient(20deg , #D74177 , #FFE98A); }
+.fan-bg-10-20 { background: linear-gradient(20deg , #38ADAE , #CD295A); }
+/* 25 deg */
+.fan-bg-1-25 { background: linear-gradient(25deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-25 { background: linear-gradient(25deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-25 { background: linear-gradient(25deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-25 { background: linear-gradient(25deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-25 { background: linear-gradient(25deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-25 { background: linear-gradient(25deg , #EA8D8D , #A890FE); }
+.fan-bg-7-25 { background: linear-gradient(25deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-25 { background: linear-gradient(25deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-25 { background: linear-gradient(25deg , #D74177 , #FFE98A); }
+.fan-bg-10-25 { background: linear-gradient(25deg , #38ADAE , #CD295A); }
+/* 30 deg */
+.fan-bg-1-30 { background: linear-gradient(30deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-30 { background: linear-gradient(30deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-30 { background: linear-gradient(30deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-30 { background: linear-gradient(30deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-30 { background: linear-gradient(30deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-30 { background: linear-gradient(30deg , #EA8D8D , #A890FE); }
+.fan-bg-7-30 { background: linear-gradient(30deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-30 { background: linear-gradient(30deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-30 { background: linear-gradient(30deg , #D74177 , #FFE98A); }
+.fan-bg-10-30 { background: linear-gradient(30deg , #38ADAE , #CD295A); }
+/* 35 deg */
+.fan-bg-1-35 { background: linear-gradient(35deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-35 { background: linear-gradient(35deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-35 { background: linear-gradient(35deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-35 { background: linear-gradient(35deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-35 { background: linear-gradient(35deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-35 { background: linear-gradient(35deg , #EA8D8D , #A890FE); }
+.fan-bg-7-35 { background: linear-gradient(35deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-35 { background: linear-gradient(35deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-35 { background: linear-gradient(35deg , #D74177 , #FFE98A); }
+.fan-bg-10-35 { background: linear-gradient(35deg , #38ADAE , #CD295A); }
+/* 40 deg */
+.fan-bg-1-40 { background: linear-gradient(40deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-40 { background: linear-gradient(40deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-40 { background: linear-gradient(40deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-40 { background: linear-gradient(40deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-40 { background: linear-gradient(40deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-40 { background: linear-gradient(40deg , #EA8D8D , #A890FE); }
+.fan-bg-7-40 { background: linear-gradient(40deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-40 { background: linear-gradient(40deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-40 { background: linear-gradient(40deg , #D74177 , #FFE98A); }
+.fan-bg-10-40 { background: linear-gradient(40deg , #38ADAE , #CD295A); }
+/* 45 deg */
+.fan-bg-1-45 { background: linear-gradient(45deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-45 { background: linear-gradient(45deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-45 { background: linear-gradient(45deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-45 { background: linear-gradient(45deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-45 { background: linear-gradient(45deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-45 { background: linear-gradient(45deg , #EA8D8D , #A890FE); }
+.fan-bg-7-45 { background: linear-gradient(45deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-45 { background: linear-gradient(45deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-45 { background: linear-gradient(45deg , #D74177 , #FFE98A); }
+.fan-bg-10-45 { background: linear-gradient(45deg , #38ADAE , #CD295A); }
+/* 50 deg */
+.fan-bg-1-50 { background: linear-gradient(50deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-50 { background: linear-gradient(50deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-50 { background: linear-gradient(50deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-50 { background: linear-gradient(50deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-50 { background: linear-gradient(50deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-50 { background: linear-gradient(50deg , #EA8D8D , #A890FE); }
+.fan-bg-7-50 { background: linear-gradient(50deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-50 { background: linear-gradient(50deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-50 { background: linear-gradient(50deg , #D74177 , #FFE98A); }
+.fan-bg-10-50 { background: linear-gradient(50deg , #38ADAE , #CD295A); }
+/* 55 deg */
+.fan-bg-1-55 { background: linear-gradient(55deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-55 { background: linear-gradient(55deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-55 { background: linear-gradient(55deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-55 { background: linear-gradient(55deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-55 { background: linear-gradient(55deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-55 { background: linear-gradient(55deg , #EA8D8D , #A890FE); }
+.fan-bg-7-55 { background: linear-gradient(55deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-55 { background: linear-gradient(55deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-55 { background: linear-gradient(55deg , #D74177 , #FFE98A); }
+.fan-bg-10-55 { background: linear-gradient(55deg , #38ADAE , #CD295A); }
+/* 60 deg */
+.fan-bg-1-60 { background: linear-gradient(60deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-60 { background: linear-gradient(60deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-60 { background: linear-gradient(60deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-60 { background: linear-gradient(60deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-60 { background: linear-gradient(60deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-60 { background: linear-gradient(60deg , #EA8D8D , #A890FE); }
+.fan-bg-7-60 { background: linear-gradient(60deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-60 { background: linear-gradient(60deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-60 { background: linear-gradient(60deg , #D74177 , #FFE98A); }
+.fan-bg-10-60 { background: linear-gradient(60deg , #38ADAE , #CD295A); }
+/* 65 deg */
+.fan-bg-1-65 { background: linear-gradient(65deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-65 { background: linear-gradient(65deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-65 { background: linear-gradient(65deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-65 { background: linear-gradient(65deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-65 { background: linear-gradient(65deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-65 { background: linear-gradient(65deg , #EA8D8D , #A890FE); }
+.fan-bg-7-65 { background: linear-gradient(65deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-65 { background: linear-gradient(65deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-65 { background: linear-gradient(65deg , #D74177 , #FFE98A); }
+.fan-bg-10-65 { background: linear-gradient(65deg , #38ADAE , #CD295A); }
+/* 70 deg */
+.fan-bg-1-70 { background: linear-gradient(70deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-70 { background: linear-gradient(70deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-70 { background: linear-gradient(70deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-70 { background: linear-gradient(70deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-70 { background: linear-gradient(70deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-70 { background: linear-gradient(70deg , #EA8D8D , #A890FE); }
+.fan-bg-7-70 { background: linear-gradient(70deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-70 { background: linear-gradient(70deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-70 { background: linear-gradient(70deg , #D74177 , #FFE98A); }
+.fan-bg-10-70 { background: linear-gradient(70deg , #38ADAE , #CD295A); }
+/* 75 deg */
+.fan-bg-1-75 { background: linear-gradient(75deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-75 { background: linear-gradient(75deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-75 { background: linear-gradient(75deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-75 { background: linear-gradient(75deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-75 { background: linear-gradient(75deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-75 { background: linear-gradient(75deg , #EA8D8D , #A890FE); }
+.fan-bg-7-75 { background: linear-gradient(75deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-75 { background: linear-gradient(75deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-75 { background: linear-gradient(75deg , #D74177 , #FFE98A); }
+.fan-bg-10-75 { background: linear-gradient(75deg , #38ADAE , #CD295A); }
+/* 80 deg */
+.fan-bg-1-80 { background: linear-gradient(80deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-80 { background: linear-gradient(80deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-80 { background: linear-gradient(80deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-80 { background: linear-gradient(80deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-80 { background: linear-gradient(80deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-80 { background: linear-gradient(80deg , #EA8D8D , #A890FE); }
+.fan-bg-7-80 { background: linear-gradient(80deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-80 { background: linear-gradient(80deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-80 { background: linear-gradient(80deg , #D74177 , #FFE98A); }
+.fan-bg-10-80 { background: linear-gradient(80deg , #38ADAE , #CD295A); }
+/* 85 deg */
+.fan-bg-1-85 { background: linear-gradient(85deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-85 { background: linear-gradient(85deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-85 { background: linear-gradient(85deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-85 { background: linear-gradient(85deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-85 { background: linear-gradient(85deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-85 { background: linear-gradient(85deg , #EA8D8D , #A890FE); }
+.fan-bg-7-85 { background: linear-gradient(85deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-85 { background: linear-gradient(85deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-85 { background: linear-gradient(85deg , #D74177 , #FFE98A); }
+.fan-bg-10-85 { background: linear-gradient(85deg , #38ADAE , #CD295A); }
+/* 90 deg */
+.fan-bg-1-90 { background: linear-gradient(90deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-90 { background: linear-gradient(90deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-90 { background: linear-gradient(90deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-90 { background: linear-gradient(90deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-90 { background: linear-gradient(90deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-90 { background: linear-gradient(90deg , #EA8D8D , #A890FE); }
+.fan-bg-7-90 { background: linear-gradient(90deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-90 { background: linear-gradient(90deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-90 { background: linear-gradient(90deg , #D74177 , #FFE98A); }
+.fan-bg-10-90 { background: linear-gradient(90deg , #38ADAE , #CD295A); }
+/* 95 deg */
+.fan-bg-1-95 { background: linear-gradient(95deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-95 { background: linear-gradient(95deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-95 { background: linear-gradient(95deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-95 { background: linear-gradient(95deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-95 { background: linear-gradient(95deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-95 { background: linear-gradient(95deg , #EA8D8D , #A890FE); }
+.fan-bg-7-95 { background: linear-gradient(95deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-95 { background: linear-gradient(95deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-95 { background: linear-gradient(95deg , #D74177 , #FFE98A); }
+.fan-bg-10-95 { background: linear-gradient(95deg , #38ADAE , #CD295A); }
+/* 100 deg */
+.fan-bg-1-100 { background: linear-gradient(100deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-100 { background: linear-gradient(100deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-100 { background: linear-gradient(100deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-100 { background: linear-gradient(100deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-100 { background: linear-gradient(100deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-100 { background: linear-gradient(100deg , #EA8D8D , #A890FE); }
+.fan-bg-7-100 { background: linear-gradient(100deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-100 { background: linear-gradient(100deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-100 { background: linear-gradient(100deg , #D74177 , #FFE98A); }
+.fan-bg-10-100 { background: linear-gradient(100deg , #38ADAE , #CD295A); }
+/* 105 deg */
+.fan-bg-1-105 { background: linear-gradient(105deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-105 { background: linear-gradient(105deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-105 { background: linear-gradient(105deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-105 { background: linear-gradient(105deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-105 { background: linear-gradient(105deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-105 { background: linear-gradient(105deg , #EA8D8D , #A890FE); }
+.fan-bg-7-105 { background: linear-gradient(105deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-105 { background: linear-gradient(105deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-105 { background: linear-gradient(105deg , #D74177 , #FFE98A); }
+.fan-bg-10-105 { background: linear-gradient(105deg , #38ADAE , #CD295A); }
+/* 110 deg */
+.fan-bg-1-110 { background: linear-gradient(110deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-110 { background: linear-gradient(110deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-110 { background: linear-gradient(110deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-110 { background: linear-gradient(110deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-110 { background: linear-gradient(110deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-110 { background: linear-gradient(110deg , #EA8D8D , #A890FE); }
+.fan-bg-7-110 { background: linear-gradient(110deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-110 { background: linear-gradient(110deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-110 { background: linear-gradient(110deg , #D74177 , #FFE98A); }
+.fan-bg-10-110 { background: linear-gradient(110deg , #38ADAE , #CD295A); }
+/* 115 deg */
+.fan-bg-1-115 { background: linear-gradient(115deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-115 { background: linear-gradient(115deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-115 { background: linear-gradient(115deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-115 { background: linear-gradient(115deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-115 { background: linear-gradient(115deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-115 { background: linear-gradient(115deg , #EA8D8D , #A890FE); }
+.fan-bg-7-115 { background: linear-gradient(115deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-115 { background: linear-gradient(115deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-115 { background: linear-gradient(115deg , #D74177 , #FFE98A); }
+.fan-bg-10-115 { background: linear-gradient(115deg , #38ADAE , #CD295A); }
+/* 120 deg */
+.fan-bg-1-120 { background: linear-gradient(120deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-120 { background: linear-gradient(120deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-120 { background: linear-gradient(120deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-120 { background: linear-gradient(120deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-120 { background: linear-gradient(120deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-120 { background: linear-gradient(120deg , #EA8D8D , #A890FE); }
+.fan-bg-7-120 { background: linear-gradient(120deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-120 { background: linear-gradient(120deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-120 { background: linear-gradient(120deg , #D74177 , #FFE98A); }
+.fan-bg-10-120 { background: linear-gradient(120deg , #38ADAE , #CD295A); }
+/* 125 deg */
+.fan-bg-1-125 { background: linear-gradient(125deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-125 { background: linear-gradient(125deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-125 { background: linear-gradient(125deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-125 { background: linear-gradient(125deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-125 { background: linear-gradient(125deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-125 { background: linear-gradient(125deg , #EA8D8D , #A890FE); }
+.fan-bg-7-125 { background: linear-gradient(125deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-125 { background: linear-gradient(125deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-125 { background: linear-gradient(125deg , #D74177 , #FFE98A); }
+.fan-bg-10-125 { background: linear-gradient(125deg , #38ADAE , #CD295A); }
+/* 130 deg */
+.fan-bg-1-130 { background: linear-gradient(130deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-130 { background: linear-gradient(130deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-130 { background: linear-gradient(130deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-130 { background: linear-gradient(130deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-130 { background: linear-gradient(130deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-130 { background: linear-gradient(130deg , #EA8D8D , #A890FE); }
+.fan-bg-7-130 { background: linear-gradient(130deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-130 { background: linear-gradient(130deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-130 { background: linear-gradient(130deg , #D74177 , #FFE98A); }
+.fan-bg-10-130 { background: linear-gradient(130deg , #38ADAE , #CD295A); }
+/* 135 deg */
+.fan-bg-1-135 { background: linear-gradient(135deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-135 { background: linear-gradient(135deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-135 { background: linear-gradient(135deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-135 { background: linear-gradient(135deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-135 { background: linear-gradient(135deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-135 { background: linear-gradient(135deg , #EA8D8D , #A890FE); }
+.fan-bg-7-135 { background: linear-gradient(135deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-135 { background: linear-gradient(135deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-135 { background: linear-gradient(135deg , #D74177 , #FFE98A); }
+.fan-bg-10-135 { background: linear-gradient(135deg , #38ADAE , #CD295A); }
+/* 140 deg */
+.fan-bg-1-140 { background: linear-gradient(140deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-140 { background: linear-gradient(140deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-140 { background: linear-gradient(140deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-140 { background: linear-gradient(140deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-140 { background: linear-gradient(140deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-140 { background: linear-gradient(140deg , #EA8D8D , #A890FE); }
+.fan-bg-7-140 { background: linear-gradient(140deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-140 { background: linear-gradient(140deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-140 { background: linear-gradient(140deg , #D74177 , #FFE98A); }
+.fan-bg-10-140 { background: linear-gradient(140deg , #38ADAE , #CD295A); }
+/* 145 deg */
+.fan-bg-1-145 { background: linear-gradient(145deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-145 { background: linear-gradient(145deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-145 { background: linear-gradient(145deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-145 { background: linear-gradient(145deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-145 { background: linear-gradient(145deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-145 { background: linear-gradient(145deg , #EA8D8D , #A890FE); }
+.fan-bg-7-145 { background: linear-gradient(145deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-145 { background: linear-gradient(145deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-145 { background: linear-gradient(145deg , #D74177 , #FFE98A); }
+.fan-bg-10-145 { background: linear-gradient(145deg , #38ADAE , #CD295A); }
+/* 150 deg */
+.fan-bg-1-150 { background: linear-gradient(150deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-150 { background: linear-gradient(150deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-150 { background: linear-gradient(150deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-150 { background: linear-gradient(150deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-150 { background: linear-gradient(150deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-150 { background: linear-gradient(150deg , #EA8D8D , #A890FE); }
+.fan-bg-7-150 { background: linear-gradient(150deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-150 { background: linear-gradient(150deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-150 { background: linear-gradient(150deg , #D74177 , #FFE98A); }
+.fan-bg-10-150 { background: linear-gradient(150deg , #38ADAE , #CD295A); }
+/* 155 deg */
+.fan-bg-1-155 { background: linear-gradient(155deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-155 { background: linear-gradient(155deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-155 { background: linear-gradient(155deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-155 { background: linear-gradient(155deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-155 { background: linear-gradient(155deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-155 { background: linear-gradient(155deg , #EA8D8D , #A890FE); }
+.fan-bg-7-155 { background: linear-gradient(155deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-155 { background: linear-gradient(155deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-155 { background: linear-gradient(155deg , #D74177 , #FFE98A); }
+.fan-bg-10-155 { background: linear-gradient(155deg , #38ADAE , #CD295A); }
+/* 160 deg */
+.fan-bg-1-160 { background: linear-gradient(160deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-160 { background: linear-gradient(160deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-160 { background: linear-gradient(160deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-160 { background: linear-gradient(160deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-160 { background: linear-gradient(160deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-160 { background: linear-gradient(160deg , #EA8D8D , #A890FE); }
+.fan-bg-7-160 { background: linear-gradient(160deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-160 { background: linear-gradient(160deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-160 { background: linear-gradient(160deg , #D74177 , #FFE98A); }
+.fan-bg-10-160 { background: linear-gradient(160deg , #38ADAE , #CD295A); }
+/* 165 deg */
+.fan-bg-1-165 { background: linear-gradient(165deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-165 { background: linear-gradient(165deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-165 { background: linear-gradient(165deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-165 { background: linear-gradient(165deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-165 { background: linear-gradient(165deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-165 { background: linear-gradient(165deg , #EA8D8D , #A890FE); }
+.fan-bg-7-165 { background: linear-gradient(165deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-165 { background: linear-gradient(165deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-165 { background: linear-gradient(165deg , #D74177 , #FFE98A); }
+.fan-bg-10-165 { background: linear-gradient(165deg , #38ADAE , #CD295A); }
+/* 170 deg */
+.fan-bg-1-170 { background: linear-gradient(170deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-170 { background: linear-gradient(170deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-170 { background: linear-gradient(170deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-170 { background: linear-gradient(170deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-170 { background: linear-gradient(170deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-170 { background: linear-gradient(170deg , #EA8D8D , #A890FE); }
+.fan-bg-7-170 { background: linear-gradient(170deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-170 { background: linear-gradient(170deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-170 { background: linear-gradient(170deg , #D74177 , #FFE98A); }
+.fan-bg-10-170 { background: linear-gradient(170deg , #38ADAE , #CD295A); }
+/* 175 deg */
+.fan-bg-1-175 { background: linear-gradient(175deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-175 { background: linear-gradient(175deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-175 { background: linear-gradient(175deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-175 { background: linear-gradient(175deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-175 { background: linear-gradient(175deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-175 { background: linear-gradient(175deg , #EA8D8D , #A890FE); }
+.fan-bg-7-175 { background: linear-gradient(175deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-175 { background: linear-gradient(175deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-175 { background: linear-gradient(175deg , #D74177 , #FFE98A); }
+.fan-bg-10-175 { background: linear-gradient(175deg , #38ADAE , #CD295A); }
+/* 180 deg */
+.fan-bg-1-180 { background: linear-gradient(180deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-180 { background: linear-gradient(180deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-180 { background: linear-gradient(180deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-180 { background: linear-gradient(180deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-180 { background: linear-gradient(180deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-180 { background: linear-gradient(180deg , #EA8D8D , #A890FE); }
+.fan-bg-7-180 { background: linear-gradient(180deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-180 { background: linear-gradient(180deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-180 { background: linear-gradient(180deg , #D74177 , #FFE98A); }
+.fan-bg-10-180 { background: linear-gradient(180deg , #38ADAE , #CD295A); }
+/* 185 deg */
+.fan-bg-1-185 { background: linear-gradient(185deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-185 { background: linear-gradient(185deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-185 { background: linear-gradient(185deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-185 { background: linear-gradient(185deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-185 { background: linear-gradient(185deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-185 { background: linear-gradient(185deg , #EA8D8D , #A890FE); }
+.fan-bg-7-185 { background: linear-gradient(185deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-185 { background: linear-gradient(185deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-185 { background: linear-gradient(185deg , #D74177 , #FFE98A); }
+.fan-bg-10-185 { background: linear-gradient(185deg , #38ADAE , #CD295A); }
+/* 190 deg */
+.fan-bg-1-190 { background: linear-gradient(190deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-190 { background: linear-gradient(190deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-190 { background: linear-gradient(190deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-190 { background: linear-gradient(190deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-190 { background: linear-gradient(190deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-190 { background: linear-gradient(190deg , #EA8D8D , #A890FE); }
+.fan-bg-7-190 { background: linear-gradient(190deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-190 { background: linear-gradient(190deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-190 { background: linear-gradient(190deg , #D74177 , #FFE98A); }
+.fan-bg-10-190 { background: linear-gradient(190deg , #38ADAE , #CD295A); }
+/* 195 deg */
+.fan-bg-1-195 { background: linear-gradient(195deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-195 { background: linear-gradient(195deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-195 { background: linear-gradient(195deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-195 { background: linear-gradient(195deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-195 { background: linear-gradient(195deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-195 { background: linear-gradient(195deg , #EA8D8D , #A890FE); }
+.fan-bg-7-195 { background: linear-gradient(195deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-195 { background: linear-gradient(195deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-195 { background: linear-gradient(195deg , #D74177 , #FFE98A); }
+.fan-bg-10-195 { background: linear-gradient(195deg , #38ADAE , #CD295A); }
+/* 200 deg */
+.fan-bg-1-200 { background: linear-gradient(200deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-200 { background: linear-gradient(200deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-200 { background: linear-gradient(200deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-200 { background: linear-gradient(200deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-200 { background: linear-gradient(200deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-200 { background: linear-gradient(200deg , #EA8D8D , #A890FE); }
+.fan-bg-7-200 { background: linear-gradient(200deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-200 { background: linear-gradient(200deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-200 { background: linear-gradient(200deg , #D74177 , #FFE98A); }
+.fan-bg-10-200 { background: linear-gradient(200deg , #38ADAE , #CD295A); }
+/* 205 deg */
+.fan-bg-1-205 { background: linear-gradient(205deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-205 { background: linear-gradient(205deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-205 { background: linear-gradient(205deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-205 { background: linear-gradient(205deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-205 { background: linear-gradient(205deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-205 { background: linear-gradient(205deg , #EA8D8D , #A890FE); }
+.fan-bg-7-205 { background: linear-gradient(205deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-205 { background: linear-gradient(205deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-205 { background: linear-gradient(205deg , #D74177 , #FFE98A); }
+.fan-bg-10-205 { background: linear-gradient(205deg , #38ADAE , #CD295A); }
+/* 210 deg */
+.fan-bg-1-210 { background: linear-gradient(210deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-210 { background: linear-gradient(210deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-210 { background: linear-gradient(210deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-210 { background: linear-gradient(210deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-210 { background: linear-gradient(210deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-210 { background: linear-gradient(210deg , #EA8D8D , #A890FE); }
+.fan-bg-7-210 { background: linear-gradient(210deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-210 { background: linear-gradient(210deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-210 { background: linear-gradient(210deg , #D74177 , #FFE98A); }
+.fan-bg-10-210 { background: linear-gradient(210deg , #38ADAE , #CD295A); }
+/* 215 deg */
+.fan-bg-1-215 { background: linear-gradient(215deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-215 { background: linear-gradient(215deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-215 { background: linear-gradient(215deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-215 { background: linear-gradient(215deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-215 { background: linear-gradient(215deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-215 { background: linear-gradient(215deg , #EA8D8D , #A890FE); }
+.fan-bg-7-215 { background: linear-gradient(215deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-215 { background: linear-gradient(215deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-215 { background: linear-gradient(215deg , #D74177 , #FFE98A); }
+.fan-bg-10-215 { background: linear-gradient(215deg , #38ADAE , #CD295A); }
+/* 220 deg */
+.fan-bg-1-220 { background: linear-gradient(220deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-220 { background: linear-gradient(220deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-220 { background: linear-gradient(220deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-220 { background: linear-gradient(220deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-220 { background: linear-gradient(220deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-220 { background: linear-gradient(220deg , #EA8D8D , #A890FE); }
+.fan-bg-7-220 { background: linear-gradient(220deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-220 { background: linear-gradient(220deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-220 { background: linear-gradient(220deg , #D74177 , #FFE98A); }
+.fan-bg-10-220 { background: linear-gradient(220deg , #38ADAE , #CD295A); }
+/* 225 deg */
+.fan-bg-1-225 { background: linear-gradient(225deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-225 { background: linear-gradient(225deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-225 { background: linear-gradient(225deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-225 { background: linear-gradient(225deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-225 { background: linear-gradient(225deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-225 { background: linear-gradient(225deg , #EA8D8D , #A890FE); }
+.fan-bg-7-225 { background: linear-gradient(225deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-225 { background: linear-gradient(225deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-225 { background: linear-gradient(225deg , #D74177 , #FFE98A); }
+.fan-bg-10-225 { background: linear-gradient(225deg , #38ADAE , #CD295A); }
+/* 230 deg */
+.fan-bg-1-230 { background: linear-gradient(230deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-230 { background: linear-gradient(230deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-230 { background: linear-gradient(230deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-230 { background: linear-gradient(230deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-230 { background: linear-gradient(230deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-230 { background: linear-gradient(230deg , #EA8D8D , #A890FE); }
+.fan-bg-7-230 { background: linear-gradient(230deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-230 { background: linear-gradient(230deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-230 { background: linear-gradient(230deg , #D74177 , #FFE98A); }
+.fan-bg-10-230 { background: linear-gradient(230deg , #38ADAE , #CD295A); }
+/* 235 deg */
+.fan-bg-1-235 { background: linear-gradient(235deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-235 { background: linear-gradient(235deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-235 { background: linear-gradient(235deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-235 { background: linear-gradient(235deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-235 { background: linear-gradient(235deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-235 { background: linear-gradient(235deg , #EA8D8D , #A890FE); }
+.fan-bg-7-235 { background: linear-gradient(235deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-235 { background: linear-gradient(235deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-235 { background: linear-gradient(235deg , #D74177 , #FFE98A); }
+.fan-bg-10-235 { background: linear-gradient(235deg , #38ADAE , #CD295A); }
+/* 240 deg */
+.fan-bg-1-240 { background: linear-gradient(240deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-240 { background: linear-gradient(240deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-240 { background: linear-gradient(240deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-240 { background: linear-gradient(240deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-240 { background: linear-gradient(240deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-240 { background: linear-gradient(240deg , #EA8D8D , #A890FE); }
+.fan-bg-7-240 { background: linear-gradient(240deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-240 { background: linear-gradient(240deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-240 { background: linear-gradient(240deg , #D74177 , #FFE98A); }
+.fan-bg-10-240 { background: linear-gradient(240deg , #38ADAE , #CD295A); }
+/* 245 deg */
+.fan-bg-1-245 { background: linear-gradient(245deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-245 { background: linear-gradient(245deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-245 { background: linear-gradient(245deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-245 { background: linear-gradient(245deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-245 { background: linear-gradient(245deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-245 { background: linear-gradient(245deg , #EA8D8D , #A890FE); }
+.fan-bg-7-245 { background: linear-gradient(245deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-245 { background: linear-gradient(245deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-245 { background: linear-gradient(245deg , #D74177 , #FFE98A); }
+.fan-bg-10-245 { background: linear-gradient(245deg , #38ADAE , #CD295A); }
+/* 250 deg */
+.fan-bg-1-250 { background: linear-gradient(250deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-250 { background: linear-gradient(250deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-250 { background: linear-gradient(250deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-250 { background: linear-gradient(250deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-250 { background: linear-gradient(250deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-250 { background: linear-gradient(250deg , #EA8D8D , #A890FE); }
+.fan-bg-7-250 { background: linear-gradient(250deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-250 { background: linear-gradient(250deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-250 { background: linear-gradient(250deg , #D74177 , #FFE98A); }
+.fan-bg-10-250 { background: linear-gradient(250deg , #38ADAE , #CD295A); }
+/* 255 deg */
+.fan-bg-1-255 { background: linear-gradient(255deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-255 { background: linear-gradient(255deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-255 { background: linear-gradient(255deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-255 { background: linear-gradient(255deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-255 { background: linear-gradient(255deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-255 { background: linear-gradient(255deg , #EA8D8D , #A890FE); }
+.fan-bg-7-255 { background: linear-gradient(255deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-255 { background: linear-gradient(255deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-255 { background: linear-gradient(255deg , #D74177 , #FFE98A); }
+.fan-bg-10-255 { background: linear-gradient(255deg , #38ADAE , #CD295A); }
+/* 260 deg */
+.fan-bg-1-260 { background: linear-gradient(260deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-260 { background: linear-gradient(260deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-260 { background: linear-gradient(260deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-260 { background: linear-gradient(260deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-260 { background: linear-gradient(260deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-260 { background: linear-gradient(260deg , #EA8D8D , #A890FE); }
+.fan-bg-7-260 { background: linear-gradient(260deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-260 { background: linear-gradient(260deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-260 { background: linear-gradient(260deg , #D74177 , #FFE98A); }
+.fan-bg-10-260 { background: linear-gradient(260deg , #38ADAE , #CD295A); }
+/* 265 deg */
+.fan-bg-1-265 { background: linear-gradient(265deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-265 { background: linear-gradient(265deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-265 { background: linear-gradient(265deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-265 { background: linear-gradient(265deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-265 { background: linear-gradient(265deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-265 { background: linear-gradient(265deg , #EA8D8D , #A890FE); }
+.fan-bg-7-265 { background: linear-gradient(265deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-265 { background: linear-gradient(265deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-265 { background: linear-gradient(265deg , #D74177 , #FFE98A); }
+.fan-bg-10-265 { background: linear-gradient(265deg , #38ADAE , #CD295A); }
+/* 270 deg */
+.fan-bg-1-270 { background: linear-gradient(270deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-270 { background: linear-gradient(270deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-270 { background: linear-gradient(270deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-270 { background: linear-gradient(270deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-270 { background: linear-gradient(270deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-270 { background: linear-gradient(270deg , #EA8D8D , #A890FE); }
+.fan-bg-7-270 { background: linear-gradient(270deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-270 { background: linear-gradient(270deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-270 { background: linear-gradient(270deg , #D74177 , #FFE98A); }
+.fan-bg-10-270 { background: linear-gradient(270deg , #38ADAE , #CD295A); }
+/* 275 deg */
+.fan-bg-1-275 { background: linear-gradient(275deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-275 { background: linear-gradient(275deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-275 { background: linear-gradient(275deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-275 { background: linear-gradient(275deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-275 { background: linear-gradient(275deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-275 { background: linear-gradient(275deg , #EA8D8D , #A890FE); }
+.fan-bg-7-275 { background: linear-gradient(275deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-275 { background: linear-gradient(275deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-275 { background: linear-gradient(275deg , #D74177 , #FFE98A); }
+.fan-bg-10-275 { background: linear-gradient(275deg , #38ADAE , #CD295A); }
+/* 280 deg */
+.fan-bg-1-280 { background: linear-gradient(280deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-280 { background: linear-gradient(280deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-280 { background: linear-gradient(280deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-280 { background: linear-gradient(280deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-280 { background: linear-gradient(280deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-280 { background: linear-gradient(280deg , #EA8D8D , #A890FE); }
+.fan-bg-7-280 { background: linear-gradient(280deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-280 { background: linear-gradient(280deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-280 { background: linear-gradient(280deg , #D74177 , #FFE98A); }
+.fan-bg-10-280 { background: linear-gradient(280deg , #38ADAE , #CD295A); }
+/* 285 deg */
+.fan-bg-1-285 { background: linear-gradient(285deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-285 { background: linear-gradient(285deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-285 { background: linear-gradient(285deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-285 { background: linear-gradient(285deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-285 { background: linear-gradient(285deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-285 { background: linear-gradient(285deg , #EA8D8D , #A890FE); }
+.fan-bg-7-285 { background: linear-gradient(285deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-285 { background: linear-gradient(285deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-285 { background: linear-gradient(285deg , #D74177 , #FFE98A); }
+.fan-bg-10-285 { background: linear-gradient(285deg , #38ADAE , #CD295A); }
+/* 290 deg */
+.fan-bg-1-290 { background: linear-gradient(290deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-290 { background: linear-gradient(290deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-290 { background: linear-gradient(290deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-290 { background: linear-gradient(290deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-290 { background: linear-gradient(290deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-290 { background: linear-gradient(290deg , #EA8D8D , #A890FE); }
+.fan-bg-7-290 { background: linear-gradient(290deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-290 { background: linear-gradient(290deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-290 { background: linear-gradient(290deg , #D74177 , #FFE98A); }
+.fan-bg-10-290 { background: linear-gradient(290deg , #38ADAE , #CD295A); }
+/* 295 deg */
+.fan-bg-1-295 { background: linear-gradient(295deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-295 { background: linear-gradient(295deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-295 { background: linear-gradient(295deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-295 { background: linear-gradient(295deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-295 { background: linear-gradient(295deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-295 { background: linear-gradient(295deg , #EA8D8D , #A890FE); }
+.fan-bg-7-295 { background: linear-gradient(295deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-295 { background: linear-gradient(295deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-295 { background: linear-gradient(295deg , #D74177 , #FFE98A); }
+.fan-bg-10-295 { background: linear-gradient(295deg , #38ADAE , #CD295A); }
+/* 300 deg */
+.fan-bg-1-300 { background: linear-gradient(300deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-300 { background: linear-gradient(300deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-300 { background: linear-gradient(300deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-300 { background: linear-gradient(300deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-300 { background: linear-gradient(300deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-300 { background: linear-gradient(300deg , #EA8D8D , #A890FE); }
+.fan-bg-7-300 { background: linear-gradient(300deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-300 { background: linear-gradient(300deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-300 { background: linear-gradient(300deg , #D74177 , #FFE98A); }
+.fan-bg-10-300 { background: linear-gradient(300deg , #38ADAE , #CD295A); }
+/* 305 deg */
+.fan-bg-1-305 { background: linear-gradient(305deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-305 { background: linear-gradient(305deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-305 { background: linear-gradient(305deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-305 { background: linear-gradient(305deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-305 { background: linear-gradient(305deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-305 { background: linear-gradient(305deg , #EA8D8D , #A890FE); }
+.fan-bg-7-305 { background: linear-gradient(305deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-305 { background: linear-gradient(305deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-305 { background: linear-gradient(305deg , #D74177 , #FFE98A); }
+.fan-bg-10-305 { background: linear-gradient(305deg , #38ADAE , #CD295A); }
+/* 310 deg */
+.fan-bg-1-310 { background: linear-gradient(310deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-310 { background: linear-gradient(310deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-310 { background: linear-gradient(310deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-310 { background: linear-gradient(310deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-310 { background: linear-gradient(310deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-310 { background: linear-gradient(310deg , #EA8D8D , #A890FE); }
+.fan-bg-7-310 { background: linear-gradient(310deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-310 { background: linear-gradient(310deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-310 { background: linear-gradient(310deg , #D74177 , #FFE98A); }
+.fan-bg-10-310 { background: linear-gradient(310deg , #38ADAE , #CD295A); }
+/* 315 deg */
+.fan-bg-1-315 { background: linear-gradient(315deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-315 { background: linear-gradient(315deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-315 { background: linear-gradient(315deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-315 { background: linear-gradient(315deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-315 { background: linear-gradient(315deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-315 { background: linear-gradient(315deg , #EA8D8D , #A890FE); }
+.fan-bg-7-315 { background: linear-gradient(315deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-315 { background: linear-gradient(315deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-315 { background: linear-gradient(315deg , #D74177 , #FFE98A); }
+.fan-bg-10-315 { background: linear-gradient(315deg , #38ADAE , #CD295A); }
+/* 320 deg */
+.fan-bg-1-320 { background: linear-gradient(320deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-320 { background: linear-gradient(320deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-320 { background: linear-gradient(320deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-320 { background: linear-gradient(320deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-320 { background: linear-gradient(320deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-320 { background: linear-gradient(320deg , #EA8D8D , #A890FE); }
+.fan-bg-7-320 { background: linear-gradient(320deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-320 { background: linear-gradient(320deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-320 { background: linear-gradient(320deg , #D74177 , #FFE98A); }
+.fan-bg-10-320 { background: linear-gradient(320deg , #38ADAE , #CD295A); }
+/* 325 deg */
+.fan-bg-1-325 { background: linear-gradient(325deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-325 { background: linear-gradient(325deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-325 { background: linear-gradient(325deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-325 { background: linear-gradient(325deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-325 { background: linear-gradient(325deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-325 { background: linear-gradient(325deg , #EA8D8D , #A890FE); }
+.fan-bg-7-325 { background: linear-gradient(325deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-325 { background: linear-gradient(325deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-325 { background: linear-gradient(325deg , #D74177 , #FFE98A); }
+.fan-bg-10-325 { background: linear-gradient(325deg , #38ADAE , #CD295A); }
+/* 330 deg */
+.fan-bg-1-330 { background: linear-gradient(330deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-330 { background: linear-gradient(330deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-330 { background: linear-gradient(330deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-330 { background: linear-gradient(330deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-330 { background: linear-gradient(330deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-330 { background: linear-gradient(330deg , #EA8D8D , #A890FE); }
+.fan-bg-7-330 { background: linear-gradient(330deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-330 { background: linear-gradient(330deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-330 { background: linear-gradient(330deg , #D74177 , #FFE98A); }
+.fan-bg-10-330 { background: linear-gradient(330deg , #38ADAE , #CD295A); }
+/* 335 deg */
+.fan-bg-1-335 { background: linear-gradient(335deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-335 { background: linear-gradient(335deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-335 { background: linear-gradient(335deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-335 { background: linear-gradient(335deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-335 { background: linear-gradient(335deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-335 { background: linear-gradient(335deg , #EA8D8D , #A890FE); }
+.fan-bg-7-335 { background: linear-gradient(335deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-335 { background: linear-gradient(335deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-335 { background: linear-gradient(335deg , #D74177 , #FFE98A); }
+.fan-bg-10-335 { background: linear-gradient(335deg , #38ADAE , #CD295A); }
+/* 340 deg */
+.fan-bg-1-340 { background: linear-gradient(340deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-340 { background: linear-gradient(340deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-340 { background: linear-gradient(340deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-340 { background: linear-gradient(340deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-340 { background: linear-gradient(340deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-340 { background: linear-gradient(340deg , #EA8D8D , #A890FE); }
+.fan-bg-7-340 { background: linear-gradient(340deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-340 { background: linear-gradient(340deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-340 { background: linear-gradient(340deg , #D74177 , #FFE98A); }
+.fan-bg-10-340 { background: linear-gradient(340deg , #38ADAE , #CD295A); }
+/* 345 deg */
+.fan-bg-1-345 { background: linear-gradient(345deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-345 { background: linear-gradient(345deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-345 { background: linear-gradient(345deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-345 { background: linear-gradient(345deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-345 { background: linear-gradient(345deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-345 { background: linear-gradient(345deg , #EA8D8D , #A890FE); }
+.fan-bg-7-345 { background: linear-gradient(345deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-345 { background: linear-gradient(345deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-345 { background: linear-gradient(345deg , #D74177 , #FFE98A); }
+.fan-bg-10-345 { background: linear-gradient(345deg , #38ADAE , #CD295A); }
+/* 350 deg */
+.fan-bg-1-350 { background: linear-gradient(350deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-350 { background: linear-gradient(350deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-350 { background: linear-gradient(350deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-350 { background: linear-gradient(350deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-350 { background: linear-gradient(350deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-350 { background: linear-gradient(350deg , #EA8D8D , #A890FE); }
+.fan-bg-7-350 { background: linear-gradient(350deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-350 { background: linear-gradient(350deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-350 { background: linear-gradient(350deg , #D74177 , #FFE98A); }
+.fan-bg-10-350 { background: linear-gradient(350deg , #38ADAE , #CD295A); }
+/* 355 deg */
+.fan-bg-1-355 { background: linear-gradient(355deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-355 { background: linear-gradient(355deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-355 { background: linear-gradient(355deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-355 { background: linear-gradient(355deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-355 { background: linear-gradient(355deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-355 { background: linear-gradient(355deg , #EA8D8D , #A890FE); }
+.fan-bg-7-355 { background: linear-gradient(355deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-355 { background: linear-gradient(355deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-355 { background: linear-gradient(355deg , #D74177 , #FFE98A); }
+.fan-bg-10-355 { background: linear-gradient(355deg , #38ADAE , #CD295A); }
+/* 360 deg */
+.fan-bg-1-360 { background: linear-gradient(360deg , #A9F1DF , #FFBBBB); }
+.fan-bg-2-360 { background: linear-gradient(360deg , #D8B5FF , #1EAE98); }
+.fan-bg-3-360 { background: linear-gradient(360deg , #BFF098 , #6FD6FF); }
+.fan-bg-4-360 { background: linear-gradient(360deg , #C6EA8D , #FE90AF); }
+.fan-bg-5-360 { background: linear-gradient(360deg , #F1EAB9 , #FF8C8C); }
+.fan-bg-6-360 { background: linear-gradient(360deg , #EA8D8D , #A890FE); }
+.fan-bg-7-360 { background: linear-gradient(360deg , #00B7FF , #FFFFC7); }
+.fan-bg-8-360 { background: linear-gradient(360deg , #FCA5F1 , #B5FFFF); }
+.fan-bg-9-360 { background: linear-gradient(360deg , #D74177 , #FFE98A); }
+.fan-bg-10-360 { background: linear-gradient(360deg , #38ADAE , #CD295A); }
+
+/* Font Masking */
+.fontmask { -webkit-text-fill-color: transparent;-webkit-background-clip: text; }
+.fontmask-img { -webkit-text-fill-color: transparent;-webkit-background-clip: text;background-position: center;background-size: cover; }
